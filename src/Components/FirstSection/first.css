@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+}
+
+.wrapper-first{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+
+.first-section{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.containers{
+    margin: 0 45px;
+    padding: 0 20px;
+}
+
+.text-containers{
+    margin-top: 10px;
+    padding-top: 10px;
+}

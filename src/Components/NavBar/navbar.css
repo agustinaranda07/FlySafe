@@ -8,31 +8,29 @@
 
 .Title{
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-size: 70px;
-    background-color: #293c6e;
+    font-size: 50px;
     color: white;
-    margin-bottom: 0;
 }
 
-.nav{
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-}
 .navList{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
-    background-color: #293c6e;
+    background-color: #6305dd;
+    width: 100%;
 }
+
 
 li{
     padding: 10px 35px;
 }
 
-
 a{
+    font-size: 1.2em;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 500;
 }
+
+

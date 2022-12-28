@@ -1,9 +1,10 @@
 import 'boxicons'
+import "./NavBar/navbar.css"
 
 function CartWidget (){
     return(
         <div>
-            <box-icon name='cart'></box-icon>
+            <i className="bi bi-cart2"></i>
         </div>
     )
 }
