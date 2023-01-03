@@ -5,6 +5,7 @@ import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import FirstSection from './Components/FirstSection/FirstSection';
 import Popular from './Components/Popular/Popular';
+import Services from './Components/AdditionalServices/Services';
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
 
     <div>
       <ItemListContainer/>
+    </div>
+
+    <div>
+      <Services/>
     </div>
     </main>
   );

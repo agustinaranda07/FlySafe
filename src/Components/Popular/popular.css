@@ -1,6 +1,7 @@
 .popular-section{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 25px;
     padding: 20px;
 }
@@ -12,3 +13,12 @@
     margin-left: 20px;
 }
 
+.btn-more{
+    background-color: transparent;
+    border-color: #6305dd;
+    color: #6305dd;
+}
+
+.btn-more:hover{
+    background-color: #6305dd;
+}
