@@ -1,7 +1,4 @@
 import React from 'react'
-import roma from "../imgs/roma.jpg"
-import paris from "../imgs/paris.jpg"
-import ny from "../imgs/ny.jpg"
 import "./popular.css"
 
 function Popular() {
@@ -13,7 +10,7 @@ function Popular() {
         <section className='popular-section'>
             <div>
                 <div class="card" style={{width: "20rem"}}>
-                    <img src={paris} class="card-img-top" alt="..."/>
+                    <img src="../imgs/paris.jpg" class="card-img-top" alt="..."/>
                     <div class="card-body" style={{textAlign:"center"}}>
                         <h2 class="card-title">París</h2>
                         <p class="card-text"><b>35% OFF</b></p>
@@ -24,7 +21,7 @@ function Popular() {
 
             <div>
                 <div class="card" style={{width: "20rem"}}>
-                    <img src={ny} class="card-img-top" alt="..."/>
+                    <img src="../imgs/ny.jpg" class="card-img-top" alt="..."/>
                     <div class="card-body" style={{textAlign:"center"}}>
                         <h2 class="card-title">Nueva York</h2>
                         <p class="card-text"><b>35% OFF</b></p>
@@ -35,7 +32,7 @@ function Popular() {
 
             <div>
                 <div class="card" style={{width: "20rem"}}>
-                    <img src={roma} class="card-img-top" alt="..."/>
+                    <img src="../imgs/roma.jpg" class="card-img-top" alt="..."/>
                     <div class="card-body" style={{textAlign:"center"}}>
                         <h2 class="card-title">Roma</h2>
                         <p class="card-text"><b>40% OFF</b></p>

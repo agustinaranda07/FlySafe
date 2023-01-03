@@ -1,13 +1,3 @@
-import roma from "../imgs/roma.jpg"
-import paris from "../imgs/paris.jpg"
-import ny from "../imgs/ny.jpg"
-import bangkok from "../imgs/bangkok.jpg"
-import dubai from "../imgs/dubai.jpg"
-import estambul from "../imgs/estambul.jpg"
-import hongkong from "../imgs/hongkong.jpg"
-import london from "../imgs/london.jpg"
-import macao from "../imgs/macao.jpg"
-import singapur from "../imgs/singapur.jpg"
 import "./itemlist.css"
 import React, {useState} from "react";
 
@@ -25,71 +15,71 @@ function ItemListContainer (props){
 
     const fly = [{
         id: 1,
-        img: {roma},
-        first_name: "Kaélé",
+        img: "../imgs/bangkok.jpg",
+        first_name: "Bangkok",
         date: "26/7/2023",
         stock: 28,
         price: 525.72
       }, {
         id: 2,
-        img: {paris},
-        first_name: "Sourotí",
+        img: "../imgs/dubai.jpg",
+        first_name: "Dubai",
         date: "7/7/2023",
         stock: 63,
         price: 777.52
       }, {
         id: 3,
-        img: {ny},
-        first_name: "Saint-Quentin",
+        img: "../imgs/estambul.jpg",
+        first_name: "Estambul",
         date: "26/10/2023",
         stock: 13,
         price: 917.94
       }, {
         id: 4,
-        img: {bangkok},
-        first_name: "Wamba",
+        img: "../imgs/hongkong.jpg",
+        first_name: "Hong Kong",
         date: "13/12/2023",
         stock: 99,
         price: 767.07
       }, {
         id: 5,
-        img: {dubai},
-        first_name: "Rivière-du-Loup",
+        img: "../imgs/london.jpg",
+        first_name: "Londres",
         date: "31/7/2023",
         stock: 44,
         price: 923.25
       }, {
         id: 6,
-        img: {estambul},
-        first_name: "Podbrdo",
+        img: "../imgs/macao.jpg",
+        first_name: "Macao",
         date: "25/7/2023",
         stock: 63,
         price: 694.71
       }, {
         id: 7,
-        img: {hongkong},
-        first_name: "Tariji",
+        img: "../imgs/ny.jpg",
+        first_name: "Nueva York",
         date: "2/8/2023",
         stock: 29,
         price: 876.77
       }, {
         id: 8,
-        img: {london},
-        first_name: "Guanghai",
+        img: "../imgs/paris.jpg",
+        first_name: "París",
         date: "6/11/2023",
         stock: 18,
         price: 741.02
       }, {
         id: 9,
-        img: {macao},
-        first_name: "Grenoble",
+        img: "../imgs/roma.jpg",
+        first_name: "Roma",
         date: "17/1/2023",
         stock: 65,
         price: 805.19
       }, {
         id: 10,
-        img: {singapur},
-        first_name: "Hanji",
+        img: "../imgs/singapur.jpg",
+        first_name: "Singapur",
         date: "10/7/2023",
         stock: 28,
         price: 538.56
@@ -103,9 +93,9 @@ function ItemListContainer (props){
                     <div className="card" style={{width: "20rem", marginBottom:"20px"}}>
                         <div className="card-body" style={{textAlign:"center"}}>
                             <img src={city.img} className="card-img-top" alt="..."/>
-                            <h2 className="card-title">{city.first_name}</h2>
+                            <h2 className="card-title" style={{color:"#6305dd", paddingTop:"10px"}}>{city.first_name}</h2>
                             <p className="card-text"><b>{city.date}</b></p>
-                            <p className="card-text"><b>${city.price}</b></p>
+                            <p className="card-text">${city.price}</p>
                             <div className="count">
                                 <button className="btn-count" disabled={counter === 0} onClick={rest}>-</button>
                                 <p className="card-text count-number">{counter}</p>
@@ -123,22 +113,3 @@ function ItemListContainer (props){
 }
 
 export default ItemListContainer;
-
-
-/*{ <div className="next-fly">
-<div>
-    <div class="card" style={{width: "20rem"}}>
-        <img src={paris} class="card-img-top" alt="..."/>
-        <div class="card-body" style={{textAlign:"center"}}>
-            <h2 class="card-title">París</h2>
-            <p class="card-text"><b>Enero 2023</b></p>
-            <div className="count">
-                <button className="btn-count" disabled={counter === 0} onClick={rest}>-</button>
-                <p class="card-text" className="count-number">{counter}</p>
-                <button className="btn-count" disabled={counter === stock} onClick={plus}>+</button>
-            </div>
-            <button type="button" className="btn btn-primary btn-lg">Agregar al carrito <i className="bi bi-cart2"></i></button>
-        </div>
-    </div>
-</div>
-</div> }*/
