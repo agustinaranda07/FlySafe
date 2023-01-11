@@ -4,7 +4,7 @@ import "./services.css"
 function services() {
   return (
     <section className='services-section'>
-        <h1 style={{textAlign:"center", color:"#6305dd",fontSize:"60px",marginTop:"20px"}}>Conoce nuestros servicios adicionales</h1>
+        <h1 style={{textAlign:"center", color:"#6305dd",fontSize:"50px",marginTop:"20px"}}>Conoce nuestros servicios adicionales</h1>
         <div className='info'>
         <div className='info-services'>
           <img src="../imgs/doctor.svg" alt="..." className='img-service' />

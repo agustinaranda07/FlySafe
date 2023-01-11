@@ -1,27 +1,29 @@
-body{
-    height: 100vh;
-}
-
 .wrapper-first{
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    padding: 20px;
-
 }
 
 .first-section{
-    padding-top: 15px;
+    padding-top: 25px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .containers{
     margin: 0 45px;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-containers{
     margin-top: 10px;
     padding-top: 10px;
+}
+
+.img-first-section{
+    height: 10rem;
 }

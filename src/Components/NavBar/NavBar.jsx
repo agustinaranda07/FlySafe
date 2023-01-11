@@ -1,6 +1,7 @@
 import "./navbar.css"
 import CartWidget from "../CartWidget";
 import 'boxicons'
+import { Link } from "react-router-dom";
 
 function NavBar (props){
     return(
@@ -8,22 +9,19 @@ function NavBar (props){
             <nav className="nav">
                 <ul className="navList">
                     <li>
-                        <a href="/"><h1 className="Title">FlySafe <i className="bi bi-airplane"></i></h1></a>
+                        <Link to="/"><h1 className="Title">FlySafe <i className="bi bi-airplane"></i></h1></Link>
                     </li>
                     <li>
-                        <a href="/">Productos</a>
+                        <Link to="/category/Europa">Europa</Link>
                     </li>
                     <li>
-                        <a href="/">Servicios adicionales</a>
+                        <Link to="/category/Asia">Asia</Link>
                     </li>
                     <li>
-                        <a href="/">Acerca de nosotros</a>
+                        <Link to="/category/America">America</Link>
                     </li>
                     <li>
-                        <a href="/">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="/"><CartWidget/></a>
+                        <Link to="/"><CartWidget/></Link>
                     </li>
                 </ul>
             </nav>

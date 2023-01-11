@@ -20,9 +20,8 @@ function Popular() {
                     <div class="card" style={{width: "20rem", marginBottom:"20px"}}>
                         <img src={i.url} class="card-img-top" alt="..."/>
                             <div className="card-body" style={{textAlign:"center"}}>
-                                <h2 className="card-title">{i.name}</h2>
+                                <h2 className="card-title" style={{color:"#6305dd"}}>{i.name}</h2>
                                 <p className="card-text"><b>{i.off}</b></p>
-                                <a href="/" className="btn btn-primary btn-more">Ver más</a>
                             </div>
                     </div>
                 </div>

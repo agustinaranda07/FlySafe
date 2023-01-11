@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function FirstSection() {
   return (
     <section className='wrapper-first'>
-      <h1 style={{textAlign:"center", color:"#6305dd",fontSize:"70px",marginTop:"20px"}}>Con FlySafe...</h1>
+      <h1 style={{textAlign:"center", color:"#6305dd",fontSize:"60px"}}>Con FlySafe...</h1>
       <section className='first-section'>
       <div className='containers'>
         <img src="../imgs/world.svg" alt="..." className='img-first-section' />
