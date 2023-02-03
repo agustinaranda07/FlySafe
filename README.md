@@ -1,16 +1,23 @@
-# Getting Started with Create React App
+# FlySafe
+
+![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Nhtli5aSkLo8igB8oRJM49A8XBx8f15gENCCcuvf80kuqyUOrZ8giQgy4GZ7Ix_sb6c&usqp=CAU)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Proyecto inicializado con [Create React App](https://github.com/facebook/create-react-app).
 
+## Acerca del proyecto
+El siguiente proyecto fue realizado durante el curso de React de CoderHouse. El objetivo del mismo es replicar de manera sencilla un sitio web de ventas de vuelos al estilo de una aerolínea tradicional. 
 ## Ejecución del proyecto
 
 Para visualizar el proyecto, puede ejecutar en la terminal:
 
+### `git clone`
+### `npm install`
 ### `npm start`
 
+
 ## Algunas vistas del proyecto
-
-
 
 ![main flysafe](https://user-images.githubusercontent.com/99835309/211130160-08b9c0cf-35ab-4e73-9bbb-62ec4ec312ed.png)
 

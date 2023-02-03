@@ -10,7 +10,7 @@ function Footer() {
         <p className='slogan'>Conoce el mundo entero, conocelo con FlySafe</p>
       </div>
 
-      <div className='rights-social' style={{borderTop:"1px solid white",paddingTop:"20px"}}>
+      <div className='rights-social'>
           <li style={{display:"inline"}}><a href='/'><i className="bi bi-instagram"></i></a></li>
           <li style={{display:"inline"}}><a href='/'><i className="bi bi-twitter"></i></a></li>
           <li style={{display:"inline"}}><a href='/'><i className="bi bi-whatsapp"></i></a></li>

@@ -50,6 +50,7 @@ export async function getCityByCategory(url){
 export async function newOrden(orden){
     const ordenRef = collection(database,"orden");
     let respuesta = await addDoc(ordenRef,orden)
+    console.log(respuesta)
     return respuesta.id;
 }
 
