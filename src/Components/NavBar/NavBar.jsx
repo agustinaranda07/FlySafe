@@ -21,7 +21,7 @@ function NavBar (props){
                         <Link to="/category/America">America</Link>
                     </li>
                     <li>
-                        <Link to="/"><CartWidget/></Link>
+                        <Link to="/cart"><CartWidget/></Link>
                     </li>
                 </ul>
             </nav>

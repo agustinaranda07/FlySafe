@@ -4,7 +4,7 @@ import "./itemlist.css"
 
 function Item(props) {
 
-    const {img,first_name,date,price,id} = props.item
+    const {img,first_name,date,price,id,off} = props.item
 
   return (
     <div className="item-card">
@@ -20,6 +20,7 @@ function Item(props) {
       <div className="item-card_detail">
         <small>{date}</small>
         <h3 className="item-card_price">$ {price}</h3>
+        {off ? <b><p style={{color:"#02a82e"}}>{off}% OFF</p></b> : <></>}
       </div>
       <Link to={`/item/${id}`}>
         <button className='btn'>Ver más</button>
