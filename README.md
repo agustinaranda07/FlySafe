@@ -6,6 +6,8 @@
 
 Proyecto inicializado con [Create React App](https://github.com/facebook/create-react-app).
 
+Puede verlo en funcionamiento aquí: https://flysafe-bice.vercel.app/ o bien aquí: https://flysafe.netlify.app/
+
 ## Acerca del proyecto
 El siguiente proyecto fue realizado durante el curso de React de CoderHouse. El objetivo del mismo es replicar de manera sencilla un sitio web de ventas de vuelos al estilo de una aerolínea tradicional. 
 ## Ejecución del proyecto
